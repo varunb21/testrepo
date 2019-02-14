@@ -1,0 +1,9 @@
+cd /QA_4_QA/Molina_Interfaces/28000
+lcd D:\Sandata\Projects\Local_Repository\inter-op_payer\restassured.sandata.interop\lib\Auth_member_setup\to_decrypt\
+get MEDHHS_EVV_Member_20181213_185106.144.csv.gpg
+cd /QA_4_QA/Molina_Interfaces/28000/To_28000
+lcd D:\Sandata\Projects\Local_Repository\inter-op_payer\restassured.sandata.interop\lib\Auth_member_setup\to_decrypt\
+get MEDHHS_EVV_Inbound_ControlFile_20181213_185106.144.csv.gpg
+cd /QA_4_QA/Molina_Interfaces/28000/To_28000
+lcd D:\Sandata\Projects\Local_Repository\inter-op_payer\restassured.sandata.interop\lib\Auth_member_setup\to_decrypt\
+get MEDHHS_EVV_Member_Error_20181213_185106.144.csv.gpg

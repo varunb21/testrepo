@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="allSuites" verbose="1" parallel="tests"
+	thread-count="1">
+
+	<test name="Regression Test Suite AltEVV " verbose="1" parallel="tests" thread-count="1">
+		<packages>
+			
+			<package name="AltEVV_generic.restassured.sandata.Client" />
+			<package name="AltEVV_generic.restassured.sandata.Employee" />
+			
+		</packages>
+	</test>
+
+</suite>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="allSuites" verbose="1" parallel="tests"
+	thread-count="1">
+
+	<test name="Regression Test Suite OpenEVV Client" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="OpenEVV.restassured.sandata.Client" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite OpenEVV Employee" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="OpenEVV.restassured.sandata.Employee" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite OpenEVV Member" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="OpenEVV.restassured.sandata.Member" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite OpenEVV XREF" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="OpenEVV.restassured.sandata.xref" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite AltEVV Client" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="AltEVV.restassured.sandata.Client" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite AltEVV Employee" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="AltEVV.restassured.sandata.Employee" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite AltEVV Visit" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="AltEVV.restassured.sandata.Visit" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Production Production"
+		verbose="1" parallel="tests" thread-count="1">
+		<packages>
+			<package name="Production" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Molina Auth" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="Molina.sandata.Authorization" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Molina Member" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="Molina.sandata.Member" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite Molina Provider" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="Molina.sandata.Provider" />
+		</packages>
+	</test>
+
+	<test name="Regression Test Suite ALL ALL" verbose="1"
+		parallel="tests" thread-count="1">
+		<packages>
+			<package name="OpenEVV.restassured.sandata.Client" />
+			<package name="OpenEVV.restassured.sandata.Employee" />
+			<package name="OpenEVV.restassured.sandata.Member" />
+			<package name="OpenEVV.restassured.sandata.xref" />
+			<package name="AltEVV_generic.restassured.sandata.Client" />
+			<package name="AltEVV_generic.restassured.sandata.Employee" />
+			<package name="AltEVV_generic.restassured.sandata.Visit" />
+			<package name="Production" />
+			
+		</packages>
+	</test>
+</suite>

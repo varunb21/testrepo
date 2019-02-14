@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="allSuites" verbose="1" parallel="tests" thread-count="1">
+    <test name="debug-suite" verbose="1" parallel="tests" thread-count="1">
+        <classes>
+            <class name="AltEVV_generic.restassured.sandata.Client.Bug125_TC95157_AltEVV_ClientSSN_Incorrect_Err_Msg"></class>
+        </classes>
+    </test>
+</suite>
