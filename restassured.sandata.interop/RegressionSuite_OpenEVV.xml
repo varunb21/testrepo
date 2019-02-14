@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="allSuites" verbose="1" parallel="tests" thread-count="1">
+
+	<test name="Regression Test Suite OpenEVV " verbose="1" parallel="tests"
+		thread-count="1">
+		<packages>
+	
+<<<<<<< HEAD
+			<package name="OpenEVV.restassured.sandata.xref" />	
+			
+			
+=======
+			<package name="OpenEVV.sandata.Authorization" />	
+>>>>>>> 15eebbd0be63733132196abe5aa75649ee77bf13
+
+		</packages>
+
+	</test>
+
+</suite>

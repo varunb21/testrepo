@@ -1,0 +1,6 @@
+"FileName"|"RecordCount"
+"MEDHHS_EVV_Test5_Provider_20181450.txt"|"2"
+"MEDHHS_EVV_Test5_Member_20181448.txt"|"2"
+"MEDHHS_EVV_Test5_PriorAuth_20181448.txt"|"4"
+"MEDHHS_EVV_Test5_Outbound_ControlFile_20181448.txt"|"5"
+"1/1/2010" - "12/06/2018 7:54:00 PM"

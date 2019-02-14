@@ -1,0 +1,103 @@
+[
+    {
+        "Account": "10010",
+        "Action": "A",
+        "CaseManager": "Shailendratesst",
+        "ClientAddress": [
+            {
+                "ClientAddressLine1": "new address",
+                "ClientAddressLine2": "777 East 5th Street",
+                "ClientAddressType": "Home",
+                "ClientCity": "Brooklyn port",
+                "ClientCounty": "denver",
+                "ClientState": "NY",
+                "ClientZip": "111111103"
+            },
+             {
+                "ClientAddressLine1": "new address",
+                "ClientAddressLine2": "777 East 5th Street",
+                "ClientAddressType": "Home",
+                "ClientCity": "Brooklyn port",
+                "ClientCounty": "denver",
+                "ClientState": "NY",
+                "ClientZip": "111111103"
+            }
+        ],
+        "ClientBirthDate": "07251999",
+        "ClientCaseManagerEmail": null,
+        "ClientContactAddressLine1": "5th avenue 2nd street",
+        "ClientContactAddressLine2": "pilgrimage large",
+        "ClientContactCity": "Brooklyn",
+        "ClientContactEmailAddress": "iamyourcontacttt@wmail.com",
+        "ClientContactFirstName": "ravishhh",
+        "ClientContactLastName": "behelll",
+        "ClientContactPhone": "8989765645",
+        "ClientContactPhoneType": "Home",
+        "ClientContactState": "NY",
+        "ClientContactType": "Family",
+        "ClientContactZip": "122351232",
+        "ClientCoordinatorEmail": "tpacordinatorrr@wmail.com",
+        "ClientCustomID": "Demo12",
+        "ClientDesigneeEmail": "riskydesigneeee@wmail.com",
+        "ClientDesigneeEndDate": null,
+        "ClientDesigneeFirstName": "rogertesttt",
+        "ClientDesigneeLastName": "fedrertesttt",
+        "ClientDesigneeStartDate": null,
+        "ClientDesigneeStatus": "02",
+        "ClientEligibility": [
+            {
+                "ClientEligibilityDateBegin": "2018-10-25",
+                "ClientEligibilityDateEnd": "2019-10-24",
+                "ClientEndOfCareDate": "2019-10-24",
+                "ClientPrimaryDiagnosisCode": "R07.81",
+                "ClientSecondaryDiagnosisCode": "R07.82",
+                "ClientStartOfCareDate": "2018-10-25",
+                "ClientStatus": "02",
+                "ClientStatusDate": null,
+                "ErrorCode": "string",
+                "ErrorMessage": "string",
+                "PayerID": "PMMP1290599",
+                "PayerProgram": "CBA5709"
+            }
+        ],
+        "ClientEmail": "iamverymayank@wmail.com",
+        "ClientFirstName": "MayankMittal",
+        "ClientGender": null,
+        "ClientID": "31254",
+        "ClientLanguage": "English",
+        "ClientLastName": "toostubborn",
+        "ClientMaritalStatus": "M",
+        "ClientMedicalRecordNumber": "897112142",
+        "ClientMiddleInitial": "M",
+        "ClientOtherID": "90901102",
+        "ClientPayerProgramService": [
+            {
+                "Modifier1": "29",
+                "Modifier2": "30",
+                "Modifier3": "40",
+                "Modifier4": "50",
+                "PayerID": "PMMP1290599",
+                "PayerProgram": "CBA5709",
+                "PayerService": "1194"
+            }
+        ],
+        "ClientPhone": [
+            {
+                "ClientPhone": "7896754313",
+                "ClientPhoneType": "Other"
+            }
+        ],
+        "ClientPriority": "01",
+        "ClientSSN": "980128676",
+        "ClientStatus": "02",
+        "ClientSuffix": "Mr",
+        "ClientTimeZone": "US/Eastern",
+        "ErrorCode": "string",
+        "ErrorMessage": "string",
+        "PayerRegion": null,
+        "ProviderIdentification": {
+            "ProviderID": "7899987",
+            "ProviderQualifier": "SandataID"
+        }
+    }
+]

@@ -1,0 +1,12 @@
+cd /DEV_4_QA/Molina_Interfaces/28000
+lcd C:\Users\KRahul\Local_Repository\inter-op_payer\api\lib\Auth_member_setup\to_encrypt_result\
+put MEDHHS_EVV_Member_20181127.csv.gpg
+cd /DEV_4_QA/Molina_Interfaces/28000
+lcd C:\Users\KRahul\Local_Repository\inter-op_payer\api\lib\Auth_member_setup\to_decrypt\
+get MEDHHS_EVV_Member_20181127.csv.gpg
+cd /QA_4_QA/Molina_Interfaces/MemberETLImport/28005-Agency/To_28005-Agency
+lcd C:\Users\KRahul\Local_Repository\inter-op_payer\api\lib\Auth_member_setup\to_decrypt\
+get MEDHHS_EVV_Member_Error_20181127.csv.gpg
+cd /QA_4_QA/Molina_Interfaces/MemberETLImport/28005-Agency/To_28005-Agency
+lcd C:\Users\KRahul\Local_Repository\inter-op_payer\api\lib\Auth_member_setup\to_decrypt\
+get MEDHHS_EVV_Member_EVV_Inbound_ControlFile_20181127.csv.gpg
